@@ -312,3 +312,84 @@ header {
     font-size: 20px;
     margin-bottom: 70px;
 }
+
+/* footer section start */
+.footer-container {
+    background-color: black;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 140px;
+}
+
+.footer-header-address-1 {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-header-address-2 {}
+
+.contact-no {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.website {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+hr {
+    margin: 50px 140px;
+    background: rgba(255, 255, 255, 0.15);
+    height: 4px;
+    border: none;
+
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 140px;
+
+}
+
+.footer-footer-left,
+.footer-footer-right {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
