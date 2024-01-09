@@ -7,21 +7,21 @@
 
 header,
 main {
-    margin: 50px 140px;
+    margin: 50px 100px;
 }
 
 /*header section start  */
 header {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
 }
 
 .banner-container {
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +85,7 @@ header {
 /* second banner section start */
 .second-banner-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -94,6 +94,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 60px;
 }
 
 
@@ -102,7 +103,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     width: 70%;
-    padding-left: 130px;
+    padding-left: 80px;
 }
 
 .second-banner-title {
@@ -111,7 +112,7 @@ header {
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 25px;
-    letter-spacing: 7.04px;
+    letter-spacing: 5.04px;
 }
 
 .second-banner-discription {
@@ -137,11 +138,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30%;
+    padding-right: 20px;
 }
 
-/* .img {
-    width: 400px;
-} */
+
 
 /* party address scetion start */
 .party-address-container {
@@ -193,6 +194,81 @@ header {
     margin-top: 50px;
 }
 
+/* coming soon section start */
+.coming-soon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 120px;
+    /* gap: 50px; */
+}
+
+.coming-soon-header {
+    padding-right: 50px;
+}
+
+.coming-soon-header-sub-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.coming-soon-header-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.coming-soon-header-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.coming-soon-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.ellipse-img {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.coming-soon-footer {
+}
+
+.coming-soon-footer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.coming-soon-footer-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.coming-soon-footer-img {}
+
+
+
+
+
+
 /* best gift section start */
 .best-gift-container {
     display: flex;
@@ -234,13 +310,11 @@ header {
     font-weight: 400;
 }
 
-.best-gift-item {}
-
 .best-gift-item-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .best-gift-item-2 {
